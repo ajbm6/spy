@@ -1,0 +1,19 @@
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "ajbm6/spy",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/ajbm6/spy.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "Ajbm6\\Spy" : "src"
+                }
+            }
+        }
+    }
+],
